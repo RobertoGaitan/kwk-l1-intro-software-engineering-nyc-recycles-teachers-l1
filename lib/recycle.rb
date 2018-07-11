@@ -31,7 +31,7 @@ end
 #This method should print out each key in the hash.
 #You should use the `each_key` method to iterate over your hash and print out each key.
 def all_keys(first_recycling_bin)
-  first_recycling_bin.each_key{[key]
+  first_recycling_bin.each_key {|key|
   puts "#{key}"
 }
 end
