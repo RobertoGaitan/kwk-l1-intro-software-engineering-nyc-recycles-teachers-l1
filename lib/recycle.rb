@@ -46,5 +46,12 @@ def all_data(first_recycling_bin)
 end
 
 #5. Define a method called `key_and_data` that takes a hash as an argument.
-#This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
-#You should use the `each` method to iterate over your hash to print out that sentence
+#This method should print out each key and value in the hash in a sentence like
+#this: `The #{key} is #{value}`
+#You should use the `each` method to iterate over your hash to
+#print out that sentence
+def key_and_data(first_recycling_bin)
+  library.each {|key, value|
+    puts "The #{key} is #{value}"
+  }
+end
