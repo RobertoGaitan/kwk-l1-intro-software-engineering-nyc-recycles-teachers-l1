@@ -18,8 +18,7 @@
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
 def address(first_recycling_bin)
-  first_recycling_bin.each_value {|key|
-  puts "#{key}"
+  puts "#{first_recycling_bin.key}"
   }
 end
 
