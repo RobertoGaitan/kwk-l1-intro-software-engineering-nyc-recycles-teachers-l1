@@ -19,7 +19,6 @@
 #This method should return the value of the address key in the hash.
 def address(first_recycling_bin)
   puts "#{first_recycling_bin.key}"
-  }
 end
 
 
