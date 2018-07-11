@@ -51,7 +51,7 @@ end
 #You should use the `each` method to iterate over your hash to
 #print out that sentence
 def key_and_data(first_recycling_bin)
-  library.each {|key, value|
+  first_recycling_bin.each {|key, value|
     puts "The #{key} is #{value}"
   }
 end
